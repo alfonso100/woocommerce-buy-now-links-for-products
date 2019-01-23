@@ -63,9 +63,8 @@ foreach ($available_variations as $key => $value) {
             $add_to_cart .='<p><strong>'. get_the_title().' - '.implode('/',$value['attributes']).'</strong>: <br><code>'.get_bloginfo('url').'/cart/?add-to-cart='.$value['variation_id'].'</code></p>';
             $add_to_checkout .='<p><strong>'. get_the_title().' - '.implode('/',$value['attributes']).'</strong>: <br><code>'.get_bloginfo('url').'/checkout/?add-to-cart='.$value['variation_id'].'</code></p>';
 
-  }
-
-?>
+        }
+    ?>
   <h4>Add to Cart Variable</h4>
     <p>This link adds the product to the cart, and directs the user to view the cart contents.</p>
     <?php echo $add_to_cart; ?>
@@ -80,12 +79,8 @@ foreach ($available_variations as $key => $value) {
 
 }
 
-
- ?>
-<?php 
 }
 
 
 add_action('add_meta_boxes', 'woobnl_add_custom_box');
 
-?>
