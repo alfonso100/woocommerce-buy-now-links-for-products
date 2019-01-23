@@ -1,7 +1,7 @@
 # Woocommerce Buy Now Links for Products
 
 A Very simple WordPress + WooCommerce plugin that adds a metabox with Buy Now links inside the products edit page. 
-I needed this for a project, and 
+I needed this for a project, so I built this very simple plugin. 
 
 ### Installing
 
@@ -11,7 +11,7 @@ Once the plugin is active, inside the product edit page you will find a new meta
 
 ## Authors
 
-* **Alfonso Catrón** - [Alfonso Catron](https://github.com/alfonso100) for  [moodstudio](https://moodstudio.net)
+* **Alfonso Catrón** - [Alfonso Catron](https://alfonsocatron.com/) for  [moodstudio](https://moodstudio.net)
 
 
 
